@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Modificado CSS</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <img width="300" src="yo2.JPG"/>
+            <nav class="lista">
+                <ul>
+                    <li>Cumplo años el 23 de marzo</li>
+                    <li>Vivo en Bogotá</li>
+                    <li>Soy Publicista</li>
+                </ul>
+            </nav>
+            <h1 id="nombre">Hola! Mi nombre es Sandra</h1>
+            
+        </header>
+        <main>
+            <section >
+                <div class="inline">
+                    <h2>Sobre Mi</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam ad, earum nostrum porro tempora sequi, at et a unde delectus ea rerum! Perferendis nisi temporibus totam quam unde aut distinctio. <b>articulo</b></p>
+            
+                </div>
+                <div class="inline">
+                    <h2>Sobre Mi Carrera</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium labore eum sequi, fuga dolorem libero, nostrum dolores nihil dignissimos laboriosam aliquam velit reprehenderit voluptatem voluptatibus voluptatum repellat quos nisi error?</p>
+                </div>
+            <section class="formulario">
+                <h2 >CONTACTO</h2>
+                <form action="" method="POST">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" name="nombre" id="nombre" placeholder="Name">
+    
+                    <label for="apellido">Apellido:</label>
+                    <input type="text" name="apellido" id="apellido" placeholder="Last name">
+    
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" id="email" placeholder="@" required>
+    
+                    <label for="edad">Edad:</label>
+                    <input type="number" min="1" name="edad" id="edad" placeholder="solo números">
+                    
+                    <button type="submit">Enviar</button>
+                    
+                    <br>
+                    <br>
+                </form>
+            </section>
+            </section>
+            <script>
+                nombre =document.getElementById("nombre");
+                nombre.addEventListener("click", function() { alert("¡Bienvenido A Mi Vida!")});
+            </script>
+        </main>
+    </body>
+</html>
